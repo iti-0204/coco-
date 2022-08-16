@@ -37,7 +37,7 @@ html {
   margin-right: auto;
 }
 
-.header_logo{
+.header_logo {
   margin-top: 15%;
 }
 
@@ -128,7 +128,6 @@ html {
     padding: 20px;
   }
 }
-
 
 @media screen and (max-width: 480px) {
   .ham {
@@ -370,7 +369,7 @@ html {
 } */
 
 .bg-pic {
-  background-image: url(/images/first-view2.png);
+  background-image: url(./images/first-view2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -542,7 +541,7 @@ body {
   font-size: var(--text_size_medium);
   border-left: 10px solid #f44336;
   font-weight: bold;
-   padding-left: 3%; 
+  padding-left: 3%;
 }
 
 .point-text-1 p {
@@ -612,7 +611,7 @@ body {
   font-size: var(--text_size_medium);
   border-left: 10px solid #f44336;
   font-weight: bold;
-  padding-left: 3%; 
+  padding-left: 3%;
 }
 
 .point-text-2 p {
@@ -753,7 +752,7 @@ body {
 .bg-pic-last {
   width: 100%;
   height: 100%;
-  background-image: url(/images/last-bg.png);
+  background-image: url(./images/last-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
