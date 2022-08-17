@@ -355,6 +355,13 @@ html {
   gap: 0%;
 }
 
+@media screen and (max-width: 480px) {
+  .sec6 {
+    height: calc(100vh + 50px);
+    /* margin-top: 100px; */
+  }
+}
+
 /* .sec1 {
   background-color: #fff;
 }
@@ -545,6 +552,13 @@ body {
   white-space: nowrap;
 }
 
+@media screen and (max-width: 480px) {
+  .point-text-1 h1 {
+    margin-top: 70%;
+    white-space: normal;
+  }
+}
+
 .point-text-1 p {
   font-size: var(--text_size_ex_small);
   line-height: 40px;
@@ -566,7 +580,14 @@ body {
 
 @media screen and (max-width: 950px) {
   .picture-sec3 {
-    padding: 0%;
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .picture-sec3 {
+    padding-left: 13%;
+    width: 333px;
   }
 }
 
@@ -599,6 +620,13 @@ body {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .picture-sec4 {
+    padding-left: 10%;
+    width: 333px;
+  }
+}
+
 .point-text-2 {
   padding-right: 18%;
   /* margin-top: ; */
@@ -616,6 +644,13 @@ body {
   font-weight: bold;
   padding-left: 3%;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+  .point-text-2 h1 {
+    margin-top: 100%;
+    white-space: normal;
+  }
 }
 
 .point-text-2 p {
@@ -666,6 +701,13 @@ body {
   white-space: nowrap;
 }
 
+@media screen and (max-width: 480px) {
+  .point-text-3 h1 {
+    margin-top: 70%;
+    white-space: normal;
+  }
+}
+
 .point-text-3 p {
   font-size: var(--text_size_ex_small);
   line-height: 40px;
@@ -688,7 +730,7 @@ body {
 .back-text-1 {
   position: absolute;
   width: 100%;
-  bottom: -100%;
+  bottom: -40%;
   left: 0%;
   /* margin-left: -850px; */
   /* top: 20%; */
@@ -711,7 +753,7 @@ body {
 .back-text-2 {
   position: absolute;
   width: 100%;
-  bottom: -100%;
+  bottom: -40%;
   text-align: end;
   /* margin-left: -850px; */
   /* top: 20%; */
@@ -734,7 +776,7 @@ body {
 .back-text-3 {
   position: absolute;
   width: 100%;
-  bottom: -100%;
+  bottom: -40%;
   text-align: start;
   /* margin-left: -850px; */
   /* top: 20%; */
@@ -779,6 +821,12 @@ body {
   font-family: "Noto Sans JP";
 }
 
+@media screen and (max-width: 480px) {
+  .dow_text {
+    margin-left: 0%;
+  }
+}
+
 .onpic-info {
   display: flex;
   flex-direction: column;
@@ -790,6 +838,12 @@ body {
   width: 175px;
   height: 52px;
   margin-left: -46%;
+}
+
+@media screen and (max-width: 480px) {
+  .dow-img {
+    margin-left: 0%;
+  }
 }
 
 .dow-img2 {
@@ -804,6 +858,12 @@ body {
   margin-top: 3%;
 }
 
+@media screen and (max-width: 480px) {
+  .dow-img3 {
+    margin-left: 0%;
+  }
+}
+
 .dow-img4 {
   width: 175px;
   height: 52px;
@@ -811,8 +871,7 @@ body {
   margin-left: -7%;
 }
 
-.iphone{
-  
+.iphone {
   width: 70%;
   height: 70%;
 }
@@ -856,11 +915,10 @@ body {
   height: 15%;
 }
 
-.logo2{
+.logo2 {
   width: 110px;
   height: 110px;
 }
-
 
 /* タブレット用のレスポンシブ */
 @media screen and (min-width: 768px) and (max-width: 950px) {
