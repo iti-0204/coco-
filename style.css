@@ -572,8 +572,8 @@ body {
 }
 
 .picture-sec3 {
-  width: 110%;
-  height: 110%;
+  width: 80%;
+  height: 80%;
   padding-right: 10%;
   padding-top: 10%;
 }
@@ -596,7 +596,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   top: 0px;
-  gap: 13%;
+  gap: 6%;
   font-family: "Noto Sans JP";
 }
 
@@ -608,8 +608,8 @@ body {
 }
 
 .picture-sec4 {
-  width: 110%;
-  height: 110%;
+  width: 80%;
+  height: 80%;
   padding-left: 10%;
   padding-top: 10%;
 }
@@ -699,6 +699,7 @@ body {
   font-weight: bold;
   padding-left: 3%;
   white-space: nowrap;
+  margin-top: -10%;
 }
 
 @media screen and (max-width: 480px) {
